@@ -1,0 +1,70 @@
+/* 背景 */
+body {
+    background-color: #adff2f;
+}
+
+
+/* 布局 */
+.wrapper {
+    /* 使用线性渐变，创建全高型分栏 */
+    background-image: linear-gradient(to right,
+    #00bfff 0%,
+    #00bfff 25%,
+    white 25%,
+    white 100%);
+}
+.title {
+    float: left;
+    width: 25%;
+}
+.main {
+    margin-left: 28%;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+li {
+    margin-bottom: 20px;
+}
+
+.a li, .b li {
+    float: left;
+    padding-right: 60px; 
+}
+
+.a h3, .a p, .b h3, .b p {
+    display: inline;
+}
+
+.b, .c {
+    clear: both;
+}
+/* 文字 */
+.title h1 {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+P {
+    font-size: 1.2rem;    
+}

@@ -1,0 +1,71 @@
+body {
+    background-color: bisque;
+}
+/* 标题 */
+.title {
+    background-color: gray;
+    height: 60px;
+}
+.title h1 {
+    line-height: 60px;
+    margin-left: 25px;
+    color: white;
+    font-size: 1.4rem;
+}
+/* 内容区 */
+.main {
+    background-color: white;
+}
+.h2 {
+    float: left;
+    width: 15%;
+    height: 145px;
+    background-color: silver;
+    border-top: 1px solid white;
+}
+.main ul {
+    margin-left: 15%;
+}
+.main > div {
+    overflow: hidden;
+    border-top: 1px solid silver;
+}
+.a, .a .h2 {
+    border-top: none;
+}
+/* 侧边栏 */
+.h2 h2 {
+    text-align: center;
+    line-height: 145px;
+    font-size: 1.4rem;
+}
+
+/* 主栏 */
+ul {
+    list-style-type: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.a li, .b li {
+    float: left;
+    padding-right: 60px; 
+}
+
+.main h3, .main p {
+    display: inline;
+}
+
+.b, .c {
+    clear: both;
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+P {
+    font-size: 1.2rem;    
+}
